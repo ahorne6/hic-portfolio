@@ -14,6 +14,11 @@ a{
 a:hover{
   color: #641ba0;
 }
+p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 h1{
   display: inherit;
   font-size: 2rem;
