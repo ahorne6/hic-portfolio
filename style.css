@@ -12,7 +12,9 @@ a:hover{
   color: #641ba0;
 }
 h1{
-  font-size: 2rem
+  font-size: 2rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 h2{
   vertical-align: middle;
@@ -32,11 +34,18 @@ h2{
   color: white;
   width: fit-content;
 }
-.bannerimg{
+.bannerimg-rot{
   width: 30%;
   margin-left: auto;
   margin-right: auto;
   rotate:270deg;
+}
+.bannerimg{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .footer{
   background: #000;
@@ -52,5 +61,11 @@ h2{
 .info-text{
   line-height: 1em;
   max-height: 300px;
+}
+.tripleimage{
+  margin:2em;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #d8d8d8;
+  vertical-align: middle;
 }
 
