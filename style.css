@@ -5,6 +5,7 @@
 }
 body{
   display: grid;
+  margin: 1em 1em 0em 1em;
 }
 a{
   color:black;
