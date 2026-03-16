@@ -57,6 +57,7 @@ img{
   overflow:hidden;
 }
 .info-text{
+  padding: 2em;
   line-height: 1em;
   max-height: 300px;
 }
