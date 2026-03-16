@@ -2,12 +2,33 @@
   margin:0px;
   box-sizing: border-box; 
   display: grid;
+  border-radius: 10px;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  color: #641ba0;
 }
 .navbar{
   width: 100%;
-  color: red;
   grid-template-columns: 1fr 1fr;
 }
 .linkbar{
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.contactbutton{
+  background: #000;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  width: fit-content;
+}
+h1{
+  font-size: 2rem
+}
+h2{
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
 }
