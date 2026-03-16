@@ -1,8 +1,10 @@
 *{
   margin:0px;
   box-sizing: border-box; 
-  display: grid;
   border-radius: 10px;
+}
+body{
+  display: grid;
 }
 a{
   color:black;
@@ -12,11 +14,13 @@ a:hover{
   color: #641ba0;
 }
 h1{
+  display: inherit;
   font-size: 2rem;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 h2{
+  display: inherit;
   vertical-align: middle;
   padding: 0.5em 0.5em;
 }
@@ -24,10 +28,12 @@ img{
   width: 100%;
 }
 .navbar{
+  display:grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 .linkbar{
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .contactbutton{
@@ -52,16 +58,18 @@ img{
   border-radius: 0px;
 }
 .info{
+  display:grid;
   grid-template-columns: 1fr 1fr;
   max-height: 500px;
   overflow:hidden;
 }
 .info-text{
-  padding: 2em;
-  line-height: 1em;
+  padding: 3em;
+  line-height: 3em;
   max-height: 300px;
 }
 .tripleimage{
+  display:grid;
   margin:2em;
   grid-template-columns: 1fr 1fr 1fr;
   background: #d8d8d8;
