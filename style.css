@@ -95,6 +95,7 @@ img{
   max-height: fit-content;
   /* max-width:fit-content; */
   margin-top: 9em;
+  margin-bottom: 1em;
 }
 .tripleimage{
   display:grid;
