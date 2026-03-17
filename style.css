@@ -79,6 +79,14 @@ img{
   margin-right: auto;
 
 }
+.info-img-fixed{
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  /* overflow: hidden; */
+
+}
 .info-text{
   background: rgb(153, 75, 153);
   color: white;
@@ -95,6 +103,7 @@ img{
   background: #d8d8d8;
   vertical-align: middle;
   max-width:100%;
+  padding: 1em;
 }
 .postcontent{
   max-width: 80%;
