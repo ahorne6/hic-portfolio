@@ -5,7 +5,8 @@
 }
 body{
   display: grid;
-  margin: 1em 1em 0em 1em;
+  width: 80%;
+  margin: auto;
 }
 a{
   color:black;
